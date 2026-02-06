@@ -1,4 +1,4 @@
-@media(width>1440px) {
+@media(min-width:1440px) {
     .cont {
         width: 1440px;
         height: auto;
@@ -11,7 +11,8 @@
     .maindes {
         display: inline;
         position: relative;
-        left: -7%;
+        left: -10%;
+        height: 800px;
     }
 
     .showdes {
@@ -217,4 +218,5 @@
         outline: 4px solid #D5966C;
         outline-offset: 4px;
     }
+
 }
